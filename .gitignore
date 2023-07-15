@@ -1,0 +1,70 @@
+# Xcode
+#
+# .gitignore file for Xcode projects.
+# More details at: https://github.com/github/gitignore/blob/master/Objective-C.gitignore
+
+# Xcode
+.DS_Store
+*.xcuserstate
+*.xcworkspace
+
+# Build products
+build/
+DerivedData/
+xcuserdata/
+
+# Pods - for projects using CocoaPods
+Pods/
+*.xcworkspace/
+*.xcworkspace/*
+
+# Sensitive data
+*.xcconfig
+
+# Swift Package Manager
+.build/
+
+# Carthage
+Carthage/Build/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/.env
+
+# Code coverage
+*.gcno
+*.gcda
+*.xccov
+*.xcresult
+
+# Package Manager
+## Comment the next line if you're not using Swift and don't want to check in /Carthage/ dependencies.
+# Carthage/Checkouts/
+
+# CocoaPods
+## We recommend against adding the Pods directory to your .gitignore. However
+## you should judge for yourself, the pros and cons are mentioned at:
+## https://guides.cocoapods.org/using/using-cocoapods.html#should-i-ignore-the-pods-directory-in-source-control
+#
+Pods/
+
+# Remove the # in the next line if you want to check-in your App's config file.
+# App/Config.swift
+
+# Bundle artifacts
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Localizations
+*.strings
+
+# Env file
+.env
+
+# Custom
+# Add any custom entries here.
+

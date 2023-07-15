@@ -1,0 +1,38 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - IQKeyboardManagerSwift (6.5.12)
+  - KeychainSwift (20.0.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 4.0)
+  - IQKeyboardManagerSwift
+  - KeychainSwift (~> 20.0)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - IQKeyboardManagerSwift
+    - KeychainSwift
+
+SPEC CHECKSUMS:
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  IQKeyboardManagerSwift: 371b08cb39664fb56030f5345c815a4ffc74bbc0
+  KeychainSwift: 0ce6a4d13f7228054d1a71bb1b500448fb2ab837
+
+PODFILE CHECKSUM: b5797530b43fba6a4269d47046846f473e091d3a
+
+COCOAPODS: 1.12.1
